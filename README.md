@@ -47,17 +47,14 @@
 > UNZIP the sources or clone the private repository. After getting the code, open a terminal and navigate to the working directory, with product source code.
 
 ```bash
-$ # Get the code
-$ git clone https://github.com/creativetimofficial/material-dashboard-django.git
-$ cd material-dashboard-django
-$
+
 $ # Virtualenv modules installation (Unix based systems)
-$ virtualenv env
-$ source env/bin/activate
+$ virtualenv myenv
+$ source myenv/bin/activate
 # $.\env\Scripts\activate 
 $ # Virtualenv modules installation (Windows based systems)
-$ # virtualenv env
-$ # .\env\Scripts\activate
+$ # virtualenv myenv
+$ # .\myenv\Scripts\activate
 $
 $ # Install modules - SQLite Storage
 $ pip3 install -r requirements.txt
